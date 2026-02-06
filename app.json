@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Futsal Lega",
-    "slug": "fs"
+    "slug": "fs",
     "version": "1.0.0",
     "runtimeVersion": "1.0.0",
     "orientation": "portrait",
