@@ -1,0 +1,5 @@
+﻿android/
+node_modules/
+.gradle/
+.expo/
+.cxx/
