@@ -1,7 +1,8 @@
-﻿node_modules/
+node_modules/
+.gradle/
 .expo/
-android/
-ios/
+android/app/build/
+android/.gradle/
 *.jks
-*.p8
 *.apk
+.idea/
