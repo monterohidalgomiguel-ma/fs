@@ -186,11 +186,13 @@ const handleEditSession = (item, tipo) => {
   />
 )}
           {screen === 'PIZARRA' && (
-  <Pizarra 
-    players={players} 
-    setPlayers={savePlayers} // Añade esta línea
-    onBack={() => setScreen('MENU')} 
-  />
+  <View style={{ flex: 1, width: '100%', height: '100%' }}>
+    <Pizarra 
+      players={players} 
+      setPlayers={savePlayers} 
+      onBack={() => setScreen('MENU')} 
+    />
+  </View>
 )}
 
           {screen === 'STATS' && (

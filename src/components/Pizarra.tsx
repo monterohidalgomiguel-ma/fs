@@ -9,8 +9,8 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 const { width: SCREEN_W, height: SCREEN_H } = Dimensions.get("window");
 const BENCH_W = 75;
-const FIELD_W = SCREEN_W - BENCH_W - 20;
-const FIELD_H = SCREEN_H * 0.65; 
+const FIELD_W = SCREEN_W - BENCH_W - 10;
+const FIELD_H = SCREEN_H * 0.70; 
 const m = FIELD_W / 20;
 
 const SEIS_METROS = 6 * m;
@@ -773,6 +773,11 @@ useEffect(() => {
 }
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#001A33",
+    minHeight: 100%,
+  },
   mainContainer: { flex: 1, backgroundColor: '#000', flexDirection: 'row' },
   sideBench: { width: BENCH_W, backgroundColor: '#111', alignItems: 'center', paddingTop: 10 },
   fieldArea: { flex: 1, justifyContent: 'flex-start', alignItems: 'center', paddingTop: 20 },
